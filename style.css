@@ -1,0 +1,47 @@
+body{
+	height: 100%;
+	width: 100%;
+	display: inline;
+}
+
+.wrapper {
+	background: #FFFFFF fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px; 
+	/*min-height: 500px;*/
+/*	border: 1px solid #000000;*/
+	
+}
+.about {
+/*	border: 1px solid #000000;*/
+	float: right;
+	margin-bottom: 70px;
+}
+
+.projects {
+	clear: both;
+	color: #FFFFFF;
+	background-image: url(https://snap-photos.s3.amazonaws.com/img-thumbs/960w/4JV6F6555N.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	padding: 100px;
+}
+
+footer {
+	background-color: #4D94FF;
+	background-size: cover;
+	padding: 50px;
+}
+
+
+footer p {
+	float: left;
+}
+
+footer ul li{
+	display: inline;
+	margin: 0 10px;
+	float: right;
+}
