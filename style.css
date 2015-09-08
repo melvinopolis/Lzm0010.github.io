@@ -1,10 +1,10 @@
 body{
 	height: 100%;
 	width: 100%;
-	display: inline;
+	/*display: inline;*/
 }
 
-.wrapper {
+.row {
 	background: #FFFFFF fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -37,11 +37,12 @@ footer {
 
 
 footer p {
-	float: left;
+	display: inline-block;
+	/*float: left;*/
 }
 
 footer ul li{
-	display: inline;
+	display: inline-block;
 	margin: 0 10px;
-	float: right;
+	/*float: right;*/
 }
