@@ -35,14 +35,18 @@ footer {
 	padding: 50px;
 }
 
-
 footer p {
 	display: inline-block;
-	/*float: left;*/
+	float: left;
+	padding-top: 20px;
+}
+
+footer ul {
+	display: inline-block;
+	float: right;
 }
 
 footer ul li{
 	display: inline-block;
 	margin: 0 10px;
-	/*float: right;*/
 }
